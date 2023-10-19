@@ -1,11 +1,13 @@
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-    return (
+    return ( 
         <div className="flex justify-center gap-10 mt-8">
-            <div>
-            <img src="https://i.ibb.co/5ktcZ9x/Logo.jpg"/>
-            </div>
+            
+           <aside className="flex gap-10">
+           <img src="https://i.ibb.co/5ktcZ9x/Logo.jpg"/>
+           <p className="text-2xl text-secondary"> Smart Wedding Event Managers</p>
+           </aside>
             <div>
                 <NavLink
                     to="/Home"
